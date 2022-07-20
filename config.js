@@ -1,6 +1,6 @@
 const
-	action = require( 'tempaw-functions-zemez' ).action,
-	preset = require( 'tempaw-functions-zemez' ).preset;
+	action = require( 'tempaw-zemez-functions' ).action,
+	preset = require( 'tempaw-zemez-functions' ).preset;
 
 module.exports = {
 	livedemo: {

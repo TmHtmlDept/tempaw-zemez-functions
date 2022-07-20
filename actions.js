@@ -6,7 +6,7 @@ const
 	gm           = require( 'gm' ),
 	path         = require( 'path' ),
 	pug          = require( 'gulp-pug' ),
-	sass         = require( 'gulp-sass' ),
+	sass         = require( 'gulp-sass' )(require( 'node-sass' ) ),
 	gutil        = require( 'gulp-util' ),
 	del          = require( 'del' ),
 	mkdirp       = require( 'mkdirp' ),

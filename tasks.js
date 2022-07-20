@@ -3,7 +3,7 @@ const
 	gutil         = require( 'gulp-util' ),
 	browserSync   = require( 'browser-sync' ),
 	plumber       = require( 'gulp-plumber' ),
-	sass          = require( 'gulp-sass' ),
+	sass          = require( 'gulp-sass' )(require('node-sass' ) ),
 	pug           = require( 'gulp-pug' ),
 	sourcemaps    = require( 'gulp-sourcemaps' ),
 	autoprefixer  = require( 'gulp-autoprefixer' ),
