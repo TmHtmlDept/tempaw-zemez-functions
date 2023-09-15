@@ -43,9 +43,7 @@
     "node-notifier": "^10.0.0",
     "plugin-error": "^1.0.1",
     "pretty": "^2.0.0",
-    "through2": "^4.0.2"
-  },
-  "devDependencies": {
+    "through2": "^4.0.2",
     "sass": "^1.67.0"
   }
 }
