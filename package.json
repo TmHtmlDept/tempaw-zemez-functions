@@ -1,6 +1,6 @@
 {
   "name": "tempaw-zemez-functions",
-  "version": "2.4.32",
+  "version": "2.4.33",
   "description": "functions module for tempaw-tools",
   "main": "index.js",
   "scripts": {
